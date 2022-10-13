@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: pink;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    background-color: palegoldenrod;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 4px;
+    font-size: 10px;
+}
+
+h2 {
+    font-family: Fraunces;
+    font-weight: 700;
+    width: 200px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+
+.productimage img {
+    width: 300px;
+    height: 510px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    background-size: cover;
+    display: flex;
+}
+
+.texto {
+    width: 270px;
+    height: 450px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 30px;
+
+}
+
+.productinformation p {
+    line-height: 27px;
+    font-family: 'Montserrat';
+    width: 100%;
+    max-width: 270px;
+
+}
+
+.productinformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.productprice {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.productprice :nth-child(1) {
+    font-family: 'Fraunces';
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+
+}
+
+.productprice :nth-child(2) {
+    text-decoration-line: line-through;
+    font-family: 'Fraunces';
+    font-size: 15px;
+    color: hsl(228, 12%, 48%);
+    ;
+
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    width: 260px;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    border: none;
+}
+
+button a{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.attribution{
+    justify-content: center;
+    display: flex;
+    gap: 1px;
+}
